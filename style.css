@@ -348,3 +348,54 @@ html {
     font-size: 18px;
   }
 }
+
+/* ===== Fil d'Ariane (F51) ===== */
+.breadcrumb {
+  background: #fff;
+}
+
+.breadcrumb-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px 20px 10px;
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.breadcrumb-content {
+  display: flex;
+  align-items: center;
+  z-index: 1;
+  font-size: 1.12em;
+}
+
+.breadcrumb a {
+  color: #000;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover {
+  text-decoration: underline;
+}
+
+.breadcrumb .separator {
+  margin: 0 8px;
+  color: #999;
+}
+
+.breadcrumb .current {
+  color: #000;
+  font-weight: 600;
+  margin-left: 4px;
+}
+
+.breadcrumb-line {
+  flex: 1;
+  height: 2px;
+  background: #e30613;
+  margin-left: 15px;
+  align-self: center;
+}
+/* ===== ============================= ===== */
+
